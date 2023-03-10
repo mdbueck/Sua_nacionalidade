@@ -1,10 +1,10 @@
 
 function verificar() {
-  var name = window.document.querySelector('#typename')
-  var country = window.document.querySelector('#typecontry')
-  var resdiv = window.document.querySelector('#res')
-  var typename = name.value
-  var typecountry = country.value
+ let name = window.document.querySelector('#typename')
+ let country = window.document.querySelector('#typecontry')
+ let resdiv = window.document.querySelector('#res')
+ let typename = name.value
+ let typecountry = country.value
 
   if (typecountry == 'Brasil') {
       resdiv.innerHTML = `<p>Olá, ${typename}! Você é Brasileir@!</p> `
